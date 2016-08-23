@@ -6,11 +6,11 @@ void main(){
 	float sum=0;
 	float marks;
 	scanf("%d", &number);
-	int i=1;
-	while( i<=number){
-		printf("Enter marks of %dth student\n",i);
+	int j=1;
+	while( j<=number){
+		printf("Enter marks of %dth student\n",j);
 		scanf("%f", &marks);
-		sum = sum+marks;i++;
+		sum = sum+marks;j++;
 	}
 	float average = sum/number;
 	printf("The Average marks of the class are\n");
